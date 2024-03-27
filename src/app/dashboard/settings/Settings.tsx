@@ -16,25 +16,25 @@ const Settings = () => {
   const [showOrders, setShowOrders] = React.useState(true);
   const [showCustomers, setShowCustomers] = React.useState(true);
 
-  const handleShowRevenueChange = (event) => {
+  const handleShowRevenueChange = (event:any) => {
     setShowRevenue(event.target.checked);
   };
 
-  const handleShowProfitChange = (event) => {
+  const handleShowProfitChange = (event:any) => {
     setShowProfit(event.target.checked);
   };
 
-  const handleShowOrdersChange = (event) => {
+  const handleShowOrdersChange = (event:any) => {
     setShowOrders(event.target.checked);
   };
 
-  const handleShowCustomersChange = (event) => {
+  const handleShowCustomersChange = (event:any) => {
     setShowCustomers(event.target.checked);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event:any) => {
     event.preventDefault();
-    // TODO: handle form submission
+   
   };
   return (
     <>
