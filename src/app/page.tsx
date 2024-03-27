@@ -1,10 +1,16 @@
+'use client'
 export default function Home() {
+  
+if(typeof window !== 'undefined'){
+  window.location.href="/about"
+
+}
+ 
+ 
   return (
+
     <div className="text-white">
-      <p>asdasdasdasdasdasd</p>
-      <p>sadadadadadasdasd</p>
-      <p>asdadadadasd</p>
-      Home pageasd
+      
     </div>
   );
 }

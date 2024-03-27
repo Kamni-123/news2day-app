@@ -25,12 +25,13 @@ export default function Component() {
             <span>News2Day</span>
           </Link>
           <nav className="ml-auto flex items-center space-x-4">
-            <Link
+          <Link
               className="font-medium text-sm border-b-2 border-transparent transition-colors hover:text-gray-900 hover:border-gray-100 dark:hover:text-gray-50 dark:hover:border-gray-800"
-              href="/"
+              href="/dashboard"
             >
-              Home
+              Dashboard
             </Link>
+            
             <Link
               className="font-medium text-sm border-b-2 border-transparent transition-colors hover:text-gray-900 hover:border-gray-100 dark:hover:text-gray-50 dark:hover:border-gray-800"
               href="/about"
@@ -49,6 +50,7 @@ export default function Component() {
             >
               Contact
             </Link>
+            
             <div id="themeSwitcher">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
